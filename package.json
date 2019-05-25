@@ -1,6 +1,6 @@
 {
   "name": "@zhiguang/display-flex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display flex",
   "main": "index.scss",
   "repository": {

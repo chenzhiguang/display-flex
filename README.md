@@ -1,16 +1,22 @@
-### install
+### Install
 
-  npm i -D @zhiguang/display-flex
+```
+npm i -D @zhiguang/display-flex
+```
 
-### usage
+### Usage
 
-  @import "~@zhiguang/display-flex";
+```
+@import "~@zhiguang/display-flex";
+```
 
-### build
+### Build
 
-  sass index.scss index.css --style compressed
+```
+sass index.scss index.css --style compressed
+```
 
-### css
+### CSS
 
 ```css
 .flex, .flex-hv, .flex-ha, .flex-hb, .flex-hc, .flex-he, .flex-hs,
