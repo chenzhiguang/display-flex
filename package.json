@@ -1,0 +1,12 @@
+{
+  "name": "@zhiguang/display-flex",
+  "version": "1.0.0",
+  "description": "Display flex",
+  "main": "index.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenzhiguang/display-flex"
+  },
+  "author": "Zhiguang Chen <chen_zhiguang@yahoo.com>",
+  "license": "ISC"
+}

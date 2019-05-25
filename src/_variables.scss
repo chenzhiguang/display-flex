@@ -1,0 +1,26 @@
+$flex-align-items-types: (
+  s: flex-start,
+  e: flex-end,
+  c: center,
+  l: baseline,
+  h: stretch,
+);
+
+$flex-justify-content-types: (
+  s: flex-start,
+  e: flex-end,
+  c: center,
+  b: space-between,
+  a: space-around,
+  v: space-evenly,
+);
+
+$flex-align-content-types: (
+  s: flex-start,
+  e: flex-end,
+  c: center,
+  b: space-between,
+  a: space-around,
+  h: stretch,
+);
+
