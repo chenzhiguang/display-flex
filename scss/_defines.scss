@@ -2,13 +2,13 @@
   display: flex;
 }
 
-.#{$prefix} {
+.#{$display-flex-prefix} {
   @extend %display-flex;
 }
 
 @each $flex-align-name, $flex-align-value in $flex-align-items-types {
   @each $flex-justify-name, $flex-justify-value in $flex-justify-content-types {
-    .#{$prefix}-#{$flex-align-name}#{$flex-justify-name} {
+    .#{$display-flex-prefix}-#{$flex-align-name}#{$flex-justify-name} {
       @extend %display-flex;
       align-items: $flex-align-value;
       justify-content: $flex-justify-value;
@@ -17,35 +17,35 @@
 }
 
 @each $flex-content-name, $flex-content-value in $flex-align-content-types {
-  .#{$prefix}-ac-#{$flex-content-name} {
+  .#{$display-flex-prefix}-ac-#{$flex-content-name} {
     align-content: $flex-content-value;
   }
 }
 
-.#{$prefix}-wrap {
+.#{$display-flex-prefix}-wrap {
   flex-wrap: wrap;
 }
 
-.#{$prefix}-nowrap {
+.#{$display-flex-prefix}-nowrap {
   flex-wrap: nowrap;
 }
 
-.#{$prefix}-wrap-reverse {
+.#{$display-flex-prefix}-wrap-reverse {
   flex-wrap: wrap-reverse;
 }
 
-.#{$prefix}-row {
+.#{$display-flex-prefix}-row {
   flex-direction: row;
 }
 
-.#{$prefix}-row-reverse {
+.#{$display-flex-prefix}-row-reverse {
   flex-direction: row-reverse;
 }
 
-.#{$prefix}-column {
+.#{$display-flex-prefix}-column {
   flex-direction: column;
 }
 
-.#{$prefix}-column-reverse {
+.#{$display-flex-prefix}-column-reverse {
   flex-direction: column-reverse;
 }

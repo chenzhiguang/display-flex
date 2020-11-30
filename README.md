@@ -30,7 +30,7 @@ npm i display-flex-utility
 For example you want use `x` instead of `flex` as the prefix:
 
 ```scss
-$prefix: x;
+$display-flex-prefix: x;
 
 // Import scss
 @import '~display-flex-utility';
@@ -41,7 +41,7 @@ Also you could custom the short name map.
 ### All variables and default value
 
 ```scss
-$prefix: flex !default;
+$display-flex-prefix: flex !default;
 
 $flex-align-items-types: (
   s: flex-start,
