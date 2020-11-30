@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>display-flex</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      body,
+      html {
+        margin: 0;
+        height: 100%;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        height: 100%;
+        max-width: 800px;
+        margin: auto;
+        padding: 50px;
+        background-color: #f9f9f9;
+      }
+      .code {
+        display: block;
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        overflow: hidden;
+        resize: none;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+      }
+      .box-coral {
+        background-color: coral;
+      }
+      .box-gold {
+        background-color: gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <textarea class="code" disabled>
+<div class="x-cb flex-row-reverse">
+  <div class="box box-coral">Coral</div>
+  <div class="box box-gold">Gold</div>
+</div>
+      </textarea>
+
+      <div class="flex-cb flex-row-reverse">
+        <div class="box box-coral">Coral</div>
+        <div class="box box-gold">Gold</div>
+      </div>
+    </div>
+  </body>
+</html>

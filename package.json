@@ -1,12 +1,24 @@
 {
-  "name": "@zhiguang/display-flex",
-  "version": "1.0.1",
-  "description": "Display flex",
-  "main": "index.scss",
+  "name": "display-flex-utility",
+  "version": "1.0.2",
+  "description": "A suite of flexbox utilities",
+  "keywords": [
+    "scss",
+    "flex",
+    "display"
+  ],
+  "main": "scss/index.scss",
+  "scripts": {
+    "build": "sass ./scss/index.scss css/index.css --style compressed",
+    "example": "http-server ./"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenzhiguang/display-flex"
+    "url": "https://github.com/chenzhiguang/display-flex-utility"
   },
   "author": "Zhiguang Chen <chen_zhiguang@yahoo.com>",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.29.0"
+  }
 }
