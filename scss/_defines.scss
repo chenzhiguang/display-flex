@@ -49,3 +49,19 @@
 .#{$display-flex-prefix}-column-reverse {
   flex-direction: column-reverse;
 }
+
+.#{$display-flex-prefix}-grow {
+  flex-grow: 1;
+}
+
+.#{$display-flex-prefix}-nogrow {
+  flex-grow: 0;
+}
+
+.#{$display-flex-prefix}-shrink {
+  flex-shrink: 1;
+}
+
+.#{$display-flex-prefix}-noshrink {
+  flex-shrink: 0;
+}

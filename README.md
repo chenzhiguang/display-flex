@@ -272,4 +272,16 @@ npm run build
 .flex-column-reverse {
   flex-direction: column-reverse;
 }
+.flex-grow {
+  flex-grow: 1;
+}
+.flex-nogrow {
+  flex-grow: 0;
+}
+.flex-shrink {
+  flex-shrink: 1;
+}
+.flex-noshrink {
+  flex-shrink: 0;
+}
 ```
